@@ -1,0 +1,77 @@
+{
+  "id": "maths-c2-c5-v1",
+  "version": 1,
+  "title": "Small steps, strong foundations",
+  "language": "kn",
+  "skills": [
+    {
+      "id": "PV2",
+      "name": "Tens and ones",
+      "nameKn": "ಹತ್ತು ಮತ್ತು ಒಂದು",
+      "grade": 2,
+      "prereqs": [],
+      "order": 1
+    },
+    {
+      "id": "ADD_CARRY",
+      "name": "Addition with carrying",
+      "nameKn": "ಕೂಡುವುದು",
+      "grade": 3,
+      "prereqs": [
+        "PV2"
+      ],
+      "order": 2
+    },
+    {
+      "id": "SUB_BORROW",
+      "name": "Subtraction with borrowing",
+      "nameKn": "ಕಳೆಯುವುದು",
+      "grade": 3,
+      "prereqs": [
+        "PV2"
+      ],
+      "order": 3
+    },
+    {
+      "id": "MUL_FACTS",
+      "name": "Multiplication facts",
+      "nameKn": "ಗುಣಾಕಾರ",
+      "grade": 4,
+      "prereqs": [
+        "ADD_CARRY"
+      ],
+      "order": 4
+    },
+    {
+      "id": "DIV_SHARE",
+      "name": "Ready for division",
+      "nameKn": "ಸಮಾನ ಹಂಚಿಕೆ",
+      "grade": 5,
+      "prereqs": [
+        "MUL_FACTS"
+      ],
+      "order": 5
+    }
+  ],
+  "itemsFile": "items/items.json",
+  "hintsFile": "hints/hints.json",
+  "assets": [
+    {
+      "path": "items/items.json",
+      "bytes": 37632,
+      "sha256": "eb53639ed2a2a8bb58e80edc012a08d0ed45464ac05440baaa7b5f86da2ebf39"
+    },
+    {
+      "path": "hints/hints.json",
+      "bytes": 3141,
+      "sha256": "0a99bda5860663985e563995091fb78deeaf2c187a175907651198396e5a0895"
+    },
+    {
+      "path": "images/place-value.svg",
+      "bytes": 509,
+      "sha256": "3e533552db9093cfe63d65dc7bfd0dbb1c3454682de06db7a7b333d9851e4097"
+    }
+  ],
+  "totalBytes": 41282,
+  "createdAt": 1795602600000
+}

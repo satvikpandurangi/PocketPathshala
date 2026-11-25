@@ -1,0 +1,14 @@
+{
+  "name": "@pp/shared",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "test": "vitest run --config ../../vitest.config.ts --root ../.. packages/shared --passWithNoTests",
+    "build": "tsc --noEmit -p ../../tsconfig.json"
+  },
+  "dependencies": {
+    "zod": "^4.1.0"
+  }
+}

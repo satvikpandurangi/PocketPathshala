@@ -1,0 +1,16 @@
+{
+  "name": "@pp/cloud",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "test": "vitest run --config ../../vitest.config.ts --root ../.. apps/cloud --passWithNoTests",
+    "build": "tsx ../../tools/build-server.ts cloud"
+  },
+  "dependencies": {
+    "@pp/shared": "workspace:*",
+    "fastify": "^5.6.0",
+    "@fastify/compress": "^8.1.0"
+  }
+}

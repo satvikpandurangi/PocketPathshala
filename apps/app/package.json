@@ -1,0 +1,30 @@
+{
+  "name": "@pp/app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "test": "vitest run --config ../../vitest.config.ts --root ../.. apps/app --passWithNoTests",
+    "android:sync": "cap sync android",
+    "android:add": "cap add android"
+  },
+  "dependencies": {
+    "@pp/shared": "workspace:*",
+    "@pp/engine": "workspace:*",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "dexie": "^4.2.0",
+    "@capacitor/core": "^7.4.0",
+    "@capacitor/android": "^7.4.0",
+    "@fontsource/archivo-black": "^5.2.0",
+    "@fontsource/dm-sans": "^5.2.0",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "vite": "^6.4.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "@capacitor/cli": "^7.4.0"
+  }
+}

@@ -1,0 +1,11 @@
+# Proposed five-school, eight-week pilot
+
+This is a proposal, not a completed or recruited study. Obtain school/coordinator approval, parent/guardian consent where required, age-appropriate learner assent and a Kannada educator’s content review. Production authentication, encrypted remote transfer and deletion/export controls are prerequisites. Collect pseudonymous IDs and grade only; avoid phone numbers, precise location and recordings of children.
+
+Week 1: baseline short skill assessment, device/connectivity audit and teacher training. Week 2: guided profile/pack setup and baseline observation. Weeks 3–6: three 15-minute practice sessions per week plus teacher regrouping. Week 7: independent transfer questions and teacher feedback. Week 8: endline assessment, retention checks and usage/data report. A matched comparison group, if ethically/practically feasible, helps separate practice gains from classroom effects; do not imply causal evidence from before/after alone.
+
+Primary indicators: change in borrowing/place-value mastery on independent assessment, practice completion, weekly active learners, time teacher spends grouping, hints followed by scaffold success, seven-day retention. Operational indicators: pack download success, unsynced event age, duplicate count, crash-free sessions, measured cloud+pack mobile bytes per learner per month. Report school-level ranges and missing-data rates, not just averages.
+
+Data budget hypothesis: pack mobile download shared once at teacher, all student distribution over LAN, cloud sends compact attempts. Model 20 practice days ×20 attempts × compressed bytes/attempt plus shared pack bytes/38 learners. Include retries and overhead before claiming under 5 MB; counters currently measure payload only. Audio size and roster size must use actual built assets. The estimate is not a measurement of paid carrier traffic.
+
+Store raw pilot events for a proposed 90-day review window only after the school agrees; aggregate/de-identify or delete thereafter. Limit teacher access to their classroom. Provide opt-out and data deletion route. Record failures and accessibility barriers openly. No public leaderboard, grade ranking or inference of a child’s intelligence from BKT scores.

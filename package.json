@@ -1,0 +1,43 @@
+{
+  "name": "pocket-pathshala",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.20.0",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @pp/hub dev",
+    "dev:app": "pnpm --filter @pp/app dev",
+    "dev:cloud": "pnpm --filter @pp/cloud dev",
+    "test": "vitest run",
+    "build": "pnpm pack:build && pnpm -r build",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "pack:build": "tsx tools/pack-builder/index.ts",
+    "demo:seed": "tsx tools/demo/seed.ts",
+    "demo:simulate": "tsx tools/demo/simulate.ts",
+    "hub:bundle": "tsx tools/bundle.ts",
+    "test:browser": "playwright test",
+    "demo:bytes": "tsx tools/demo/byte-report.ts"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^22.10.0",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "esbuild": "^0.25.0",
+    "eslint": "^9.39.0",
+    "fake-indexeddb": "^6.2.8",
+    "prettier": "^3.7.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "typescript-eslint": "^8.48.0",
+    "vitest": "^3.2.0"
+  }
+}

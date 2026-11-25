@@ -1,0 +1,15 @@
+node_modules/
+data/
+dist/
+*.db
+*.db-shm
+*.db-wal
+.env
+.env.*
+!.env.example
+apps/app/public/packs/
+apps/app/android/.gradle/
+apps/app/android/local.properties
+apps/app/android/**/build/
+test-results/
+playwright-report/

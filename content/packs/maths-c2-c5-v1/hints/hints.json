@@ -1,0 +1,93 @@
+[
+  {
+    "errorTag": "SUB_NO_BORROW",
+    "title": "Let's borrow one ten",
+    "steps": [
+      "ಒಂದು ಹತ್ತನ್ನು ಬಿಡಿಸಿ. ಮೊದಲು ಒಂದರ ಸ್ಥಾನವನ್ನು ಕಳೆಯಿರಿ.",
+      "For 52 − 27: borrow 1 ten. 12 − 7 = 5. Then 4 − 2 = 2.",
+      "For 43 − 18: borrow 1 ten. 13 − 8 = 5. Then 3 − 1 = 2."
+    ],
+    "scaffoldSkill": "SUB_BORROW"
+  },
+  {
+    "errorTag": "SUB_BORROW_NO_DECREMENT",
+    "title": "A borrowed ten moves to the ones",
+    "steps": [
+      "ಒಂದು ಹತ್ತನ್ನು ಬಿಡಿಸಿದಾಗ ಹತ್ತರ ಸ್ಥಾನದಲ್ಲಿ ಒಂದು ಕಡಿಮೆ ಮಾಡಿ.",
+      "When you borrow, reduce the top tens by one before subtracting."
+    ],
+    "scaffoldSkill": "SUB_BORROW"
+  },
+  {
+    "errorTag": "ADD_NO_CARRY",
+    "title": "Ten ones make a new ten",
+    "steps": [
+      "ಹತ್ತು ಒಂದುಗಳು ಸೇರಿ ಒಂದು ಹತ್ತು ಆಗುತ್ತದೆ.",
+      "Add the ones. Carry each complete ten into the tens column."
+    ],
+    "scaffoldSkill": "ADD_CARRY"
+  },
+  {
+    "errorTag": "PV_DIGIT_SWAP",
+    "title": "Look at the tens place",
+    "steps": [
+      "ಎಡಗಡೆಯ ಅಂಕಿ ಹತ್ತನ್ನು ಸೂಚಿಸುತ್ತದೆ.",
+      "The left digit counts groups of ten; the right counts leftover ones."
+    ],
+    "scaffoldSkill": "PV2"
+  },
+  {
+    "errorTag": "MUL_ADJACENT_FACT",
+    "title": "Count equal groups",
+    "steps": [
+      "ಸಮಾನ ಗುಂಪುಗಳನ್ನು ಎಣಿಸಿ.",
+      "Skip count the same number once for each group. Stop at the requested group."
+    ],
+    "scaffoldSkill": "MUL_FACTS"
+  },
+  {
+    "errorTag": "DIV_MULT_CONFUSION",
+    "title": "Share, one at a time",
+    "steps": [
+      "ಒಂದೊಂದಾಗಿ ಸಮಾನವಾಗಿ ಹಂಚಿ.",
+      "Draw one circle for each child. Share the mangoes equally, then count one circle."
+    ],
+    "scaffoldSkill": "DIV_SHARE"
+  },
+  {
+    "errorTag": "OFF_BY_TEN",
+    "title": "Check the tens again",
+    "steps": [
+      "ಹತ್ತರ ಸ್ಥಾನವನ್ನು ಮತ್ತೆ ನೋಡಿ.",
+      "Write tens and ones separately. Check whether a ten moved."
+    ],
+    "scaffoldSkill": "ADD_CARRY"
+  },
+  {
+    "errorTag": "OFF_BY_ONE",
+    "title": "Count once more",
+    "steps": [
+      "ಮತ್ತೊಮ್ಮೆ ಎಣಿಸಿ.",
+      "Use counters or fingers. Check the last group carefully."
+    ],
+    "scaffoldSkill": "MUL_FACTS"
+  },
+  {
+    "errorTag": "NEAR_MISS",
+    "title": "Take one small step",
+    "steps": [
+      "ನಿಧಾನವಾಗಿ ಹಂತ ಹಂತವಾಗಿ ಮಾಡಿ.",
+      "Work with the ones first, then the tens. Check your answer with the opposite operation."
+    ],
+    "scaffoldSkill": "SUB_BORROW"
+  },
+  {
+    "errorTag": "PV_COUNT_ONES",
+    "title": "Count groups of ten",
+    "steps": [
+      "ಹತ್ತರ ಗುಂಪುಗಳನ್ನು ಎಣಿಸಿ.",
+      "How many complete groups of ten can you make?"
+    ],
+    "scaffoldSkill": "PV2"
+  }
+]

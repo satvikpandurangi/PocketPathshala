@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Pocket Pathshala</string>
+    <string name="title_activity_main">Pocket Pathshala</string>
+    <string name="package_name">org.klarity.pocketpathshala</string>
+    <string name="custom_url_scheme">org.klarity.pocketpathshala</string>
+</resources>
